@@ -32,7 +32,7 @@ pipeline {
                           image 'ubuntu'
                         }
                      }
-                     steps { "Running another test" }
+                     steps { echo "Running another test" }
                      }
                  }
             }
